@@ -1,0 +1,8 @@
+* {
+    box-sizing: border-box;
+}
+
+.navbar-brand {
+    background: #bb0000;
+    padding: 10px;
+}

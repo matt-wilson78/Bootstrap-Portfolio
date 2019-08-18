@@ -9,6 +9,7 @@
 
 .container {
     margin-top: 30px;
+    margin-bottom: 120px;
 }
 
 .aboutPic {
@@ -16,8 +17,11 @@
 }
 
 .pageFooter {
-    position: fixed;
+    position: absolute;
     bottom: 0;
-    font-size: 12px;
     width: 100%;
+}
+
+.copyright {
+    font-size: 12px;
 }

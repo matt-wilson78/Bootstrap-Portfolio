@@ -10,6 +10,7 @@
 .container {
     margin-top: 30px;
     margin-bottom: 120px;
+    position: relative;
 }
 
 .aboutPic {
@@ -17,7 +18,7 @@
 }
 
 .pageFooter {
-    position: absolute;
+    position: fixed;
     bottom: 0;
     width: 100%;
 }

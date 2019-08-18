@@ -6,51 +6,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Matt Wilson</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="Assets/style.css">
 
 </head>
-<body style="background-image: url(assets/images/white-waves.png)">
+<body class="bg-light">
 
-    <header class="pageHeader">
-
-        <div class="name">
-                    <h1>Matt Wilson</h1>
-        </div>
+    <header>
     
-        <nav class="menu">
-            <a class="about" href="index.html">About</a> | 
-            <a class="portfolio" href="portfolio.html">Portfolio</a> | 
-            <a class="contact" href="contact.html">Contact</a>
+        <nav class="navbar navbar-expand-lg navbar-light bg-white">
+                <a class="navbar-brand text-white ml-3 bg-danger" href="index.html">Matt Wilson</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                  <div class="navbar-nav ml-auto mr-3">
+                    <a class="nav-item nav-link active" href="index.html">About</a>
+                    <a class="nav-item nav-link active" href="portfolio.html">Portfolio<span class="sr-only">(current)</span></a>
+                    <a class="nav-item nav-link" href="contact.html">Contact</a>
+                  </div>
+                </div>
         </nav>
     
-    </header>
+    <div class="container bg-white p-3">
     
-    <div class="wrapper">
-    
-        <h1 class="sectionTitle">About Me</h1>
-        <hr>
+        <div class="row">
+            <div class="col-2">
+                <h2 class="text-danger">About Me</h2>
+                <hr>
+            </div>
+
+        </div>
+        
                 
-        <div>
-            <img id="aboutImage" src="assets/images/mypic.jpg">
+        <div class="row">
+
+            <div class="col-12">
+
+                <div class="image-wrapper float-left mr-2">
+                    <img src="Assets/images/mypic.jpg" class="aboutPic m-1" alt="A picture of me">
+                </div>
+
+                <div class="single-post-content-wrapper">
+                
+                    I have spent the majority of my professional career working in sales. I began with a company called Gatelinx, selling DirecTV   equipment and services.
+                    After 2 years with the company, I began a 14 year career with The Pilot newspaper in Southern Pines, North Carolina. I began working in classified advertising sales, and eventually moved to their directory division.
+                    We published two phonebooks in Moore County, NC and Lee County, NC. As time has passed, print sales have declined, and The Pilot realized they needed a Digital Division to remain competitive.
+                    <br><br>
+                    Over the last several years, I have worked to teach myself HTML and CSS to make myself more valuable as we grow our Digital     Division.
+                    Within this division, I am responsible for "building" and maintaining our Wordpress websites. We are using Wordpress as a placeholder system while I pursue further education in HTML, CSS, and Javascript through the UNC Coding Bootcamp.
+                    As I learn more, our plan is to move away from Wordpress, and offer a more versatile web development platform.
+                </div>
+            </div>
+            
         </div>    
                 
-        <p> 
-            I have spent the majority of my professional career working in sales. I began with a company called Gatelinx, selling DirecTV equipment and services.
-            After 2 years with the company, I began a 14 year career with The Pilot newspaper in Southern Pines, North Carolina. I began working in classified advertising sales, and eventually moved to their directory division.
-            We published two phonebooks in Moore County, NC and Lee County, NC. As time has passed, print sales have declined, and The Pilot realized they needed a Digital Division to remain competitive.
-        </p>
-                
-        <p>
-            Over the last several years, I have worked to teach myself HTML and CSS to make myself more valuable as we grow our Digital Division.
-            Within this division, I am responsible for "building" and maintaining our Wordpress websites. We are using Wordpress as a placeholder system while I pursue further education in HTML, CSS, and Javascript through the UNC Coding Bootcamp.
-            As I learn more, our plan is to move away from Wordpress, and offer a more versatile web development platform.
-    
-        </p>
-    
     </div>
     
     <footer class="pageFooter">
-    
-        <h5 class="copyright">Copyright © 2019 by Matt Wilson</h5>
+      
+      <nav class="navbar navbar-dark bg-secondary text-white p-0">
+        <span class="navbar-brand m-auto">Copyright 2019 Matt Wilson</span>
+      </nav>
     
     </footer>
 

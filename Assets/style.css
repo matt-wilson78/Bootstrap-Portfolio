@@ -10,3 +10,14 @@
 .container {
     margin-top: 30px;
 }
+
+.aboutPic {
+    width: 200px;
+}
+
+.pageFooter {
+    position: fixed;
+    bottom: 0;
+    font-size: 12px;
+    width: 100%;
+}

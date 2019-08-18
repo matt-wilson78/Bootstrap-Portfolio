@@ -26,3 +26,9 @@
 .copyright {
     font-size: 12px;
 }
+
+.portfolioImage {
+    width: 275px;
+    height: 200px;
+    padding: 20px;
+}
